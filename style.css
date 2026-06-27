@@ -87,3 +87,26 @@ main {
     background-color: #cc0000;
     border-color: #cc0000;
 }
+/* ============================
+   FOOTER (root)
+   ============================ */
+
+.footer {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-line {
+    width: 80%;
+    height: 2px;
+    background-color: #cc0000;
+    margin: 0 auto 12px auto;
+    opacity: 0.9;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.9;
+}

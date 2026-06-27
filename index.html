@@ -4,6 +4,40 @@
     <meta charset="UTF-8">
     <title>Self‑Undermining Dynamics</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* --- Modernisierung: Zusätzliche, isolierte Styles --- */
+
+        .section {
+            margin-top: 60px;
+            text-align: center;
+            opacity: 0.9;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 12px 22px;
+            margin: 10px 0;
+            background-color: #2b2b2b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: background-color 0.2s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #444;
+        }
+
+        .divider {
+            width: 80%;
+            height: 1px;
+            background-color: #ccc;
+            margin: 40px auto;
+            opacity: 0.4;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,25 +60,27 @@
         <a class="lang-btn" href="de/index.html">Deutsch</a>
     </div>
 
-    <div style="margin-top:60px; opacity:0.8;">
-        <a href="https://osf.io/65n8p" target="_blank">OSF Project: https://osf.io/65n8p</a>
+    <div class="section">
+        <a href="https://osf.io/65n8p" target="_blank">
+            OSF Project: https://osf.io/65n8p
+        </a>
     </div>
 
+    <div class="divider"></div>
+
     <!-- PDF Downloads -->
-    <div style="margin-top:40px; opacity:0.85;">
+    <div class="section">
         <h2>PDF Downloads</h2>
 
-        <p>
-            <a href="de/selbst-unterminierende-dynamiken-strukturelles-modell.pdf" target="_blank">
-                📄 German PDF: Selbst‑unterminierende Dynamiken (Download)
-            </a>
-        </p>
+        <a class="download-btn" href="de/selbst-unterminierende-dynamiken-strukturelles-modell.pdf" target="_blank">
+            📄 German PDF Download
+        </a>
 
-        <p>
-            <a href="en/self-undermining-dynamics-structural-model.pdf" target="_blank">
-                📄 English PDF: Self‑Undermining Dynamics (Download)
-            </a>
-        </p>
+        <br>
+
+        <a class="download-btn" href="en/self-undermining-dynamics-structural-model.pdf" target="_blank">
+            📄 English PDF Download
+        </a>
     </div>
 
 </main>

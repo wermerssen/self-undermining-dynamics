@@ -20,10 +20,10 @@ a:hover {
 
 
 /* ============================
-   HEADER
+   HEADER (für en/ und de/)
    ============================ */
 
-.sud-header {
+.header {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -31,35 +31,14 @@ a:hover {
     padding: 12px 20px;
 }
 
-.sud-logo {
-    height: 48px;   /* dein PNG-Logo */
+.logo {
+    height: 48px;
     width: auto;
 }
 
-.sud-title {
-    font-size: 18px;
-    font-weight: 500;
-    color: #fff;
-}
-
-
-/* ============================
-   NAVIGATION
-   ============================ */
-
-.sud-nav {
-    display: flex;
-    gap: 20px;
-    background-color: #111;
-    padding: 10px 20px;
-}
-
-.sud-nav a {
-    font-size: 16px;
-}
-
-.sud-nav a:hover {
-    color: #cc0000;
+.title {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -79,12 +58,16 @@ main {
    ============================ */
 
 .lang-select {
-    padding: 40px 20px;
+    padding: 60px 20px;
     text-align: center;
 }
 
+.lang-select h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
 .lang-buttons {
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -92,10 +75,9 @@ main {
 
 .lang-btn {
     background-color: #111;
-    padding: 12px 24px;
+    padding: 14px 28px;
     border-radius: 6px;
     color: #fff;
-    text-decoration: none;
     font-size: 18px;
     font-weight: 500;
     border: 1px solid #333;
@@ -104,17 +86,4 @@ main {
 .lang-btn:hover {
     background-color: #cc0000;
     border-color: #cc0000;
-}
-
-
-/* ============================
-   OPTIONAL: FOOTER (falls du später einen willst)
-   ============================ */
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #111;
-    color: #aaa;
-    font-size: 14px;
 }

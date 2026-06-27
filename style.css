@@ -29,6 +29,9 @@ a:hover {
     gap: 16px;
     background-color: #000;
     padding: 12px 20px;
+
+    /* >>> FIX: Header-Inhalt zentrieren <<< */
+    justify-content: center;
 }
 
 .logo {

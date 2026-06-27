@@ -29,12 +29,8 @@ a:hover {
     gap: 16px;
     background-color: #000;
     padding: 12px 20px;
-
-    /* >>> FIX: Header-Inhalt zentrieren <<< */
     justify-content: center;
-
-    /* >>> Veredelung: mehr Ruhe <<< */
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 .logo {
@@ -55,28 +51,85 @@ a:hover {
 main {
     padding: 20px;
     font-size: 17px;
-    line-height: 1.6;
-
-    /* >>> GLOBAL FIX: Inhalte zentrieren und Abstand schaffen <<< */
+    line-height: 1.68;
     max-width: 900px;
     margin: 0 auto;
-
-    /* >>> Veredelung: ruhiger Start <<< */
-    padding-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 40px;
 }
 
-/* >>> Typografie Veredelung <<< */
+/* Überschriften */
 main h2 {
-    font-size: 26px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    letter-spacing: 0.5px;
+    font-size: 27px;
+    margin-top: 15px;
+    margin-bottom: 28px;
+    letter-spacing: 0.6px;
+    opacity: 0.96;
+    border-bottom: 1px solid #333;
+    padding-bottom: 6px;
+}
+
+main h3 {
+    font-size: 22px;
+    margin-top: 28px;
+    margin-bottom: 16px;
+    letter-spacing: 0.4px;
     opacity: 0.95;
 }
 
+/* Paragraphen */
 main p {
-    margin-bottom: 22px;
+    margin-bottom: 26px;
+    opacity: 0.93;
+}
+
+/* Links im Main */
+main a {
+    color: #cc0000;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+main a:hover {
+    opacity: 1.0;
+}
+
+/* Blockquote */
+main blockquote {
+    border-left: 3px solid #cc0000;
+    padding-left: 14px;
+    margin: 24px 0;
+    opacity: 0.9;
+}
+
+/* Listen */
+main ul {
+    margin-bottom: 26px;
+    padding-left: 24px;
     opacity: 0.92;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+/* Tabellen */
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 26px 0;
+}
+
+main th, main td {
+    border: 1px solid #333;
+    padding: 10px 14px;
+    text-align: left;
+    opacity: 0.92;
+}
+
+main th {
+    background-color: #111;
+    font-weight: 600;
 }
 
 
@@ -85,17 +138,18 @@ main p {
    ============================ */
 
 .nav {
-    text-align: center;      
-    margin: 40px 0 30px 0;    
-    padding-bottom: 12px;     
-    border-bottom: 1px solid #333;   /* >>> Veredelung: dezente Linie */
+    text-align: center;
+    margin: 40px 0 35px 0;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #444;
 }
 
 .nav a {
-    margin: 0 20px;          
-    font-size: 18px;         
-    opacity: 0.85;           
-    letter-spacing: 0.3px;   /* >>> Veredelung: wissenschaftlicher Look */
+    margin: 0 22px;
+    font-size: 18px;
+    opacity: 0.85;
+    letter-spacing: 0.4px;
+    transition: opacity 0.2s ease;
 }
 
 .nav a:hover {

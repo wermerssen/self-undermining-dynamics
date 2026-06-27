@@ -1,0 +1,14 @@
+<div class="logo">
+    <svg width="48" height="48" viewBox="0 0 48 48">
+        <path d="M 30 6
+                 C 12 6, 12 30, 30 30
+                 L 26 26
+                 M 30 30 L 34 26"
+              stroke="#cc0000"
+              stroke-width="4"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </svg>
+    <span class="logo-text">SUD</span>
+</div>

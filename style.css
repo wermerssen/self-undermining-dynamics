@@ -1,12 +1,120 @@
-<!-- HEADER-BLOCK -->
-<header class="sud-header">
-    <img src="logo.png" alt="SUD Logo" class="sud-logo">
-    <div class="sud-title">Self‑Undermining Dynamics in Open Political Systems</div>
-</header>
+/* ============================
+   GLOBAL
+   ============================ */
 
-<nav class="sud-nav">
-    <a href="index.html">Overview</a>
-    <a href="structural.html">Structural Components</a>
-    <a href="meta.html">Meta Layer</a>
-    <a href="../rrk/index.html">OSF Wiki</a>
-</nav>
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc0000;
+}
+
+
+/* ============================
+   HEADER
+   ============================ */
+
+.sud-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #000;
+    padding: 12px 20px;
+}
+
+.sud-logo {
+    height: 48px;   /* dein PNG-Logo */
+    width: auto;
+}
+
+.sud-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* ============================
+   NAVIGATION
+   ============================ */
+
+.sud-nav {
+    display: flex;
+    gap: 20px;
+    background-color: #111;
+    padding: 10px 20px;
+}
+
+.sud-nav a {
+    font-size: 16px;
+}
+
+.sud-nav a:hover {
+    color: #cc0000;
+}
+
+
+/* ============================
+   MAIN CONTENT
+   ============================ */
+
+main {
+    padding: 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* ============================
+   LANGUAGE SELECTION (root/index)
+   ============================ */
+
+.lang-select {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.lang-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.lang-btn {
+    background-color: #111;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #333;
+}
+
+.lang-btn:hover {
+    background-color: #cc0000;
+    border-color: #cc0000;
+}
+
+
+/* ============================
+   OPTIONAL: FOOTER (falls du später einen willst)
+   ============================ */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #aaa;
+    font-size: 14px;
+}

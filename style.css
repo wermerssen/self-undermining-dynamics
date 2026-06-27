@@ -59,6 +59,26 @@ main {
     margin: 0 auto;
 }
 
+/* ============================
+   NAVIGATION FIX (Overview / Structural / Components / Meta / OSF)
+   ============================ */
+
+.nav {
+    text-align: center;          /* zentriert die gesamte Leiste */
+    margin-bottom: 40px;         /* Abstand nach unten */
+    margin-top: 20px;            /* Abstand nach oben */
+}
+
+.nav a {
+    margin: 0 14px;              /* Abstand zwischen den Links */
+    font-size: 18px;             /* etwas größer, wirkt professioneller */
+    opacity: 0.9;                /* dezenter Look */
+}
+
+.nav a:hover {
+    opacity: 1.0;
+}
+
 
 /* ============================
    LANGUAGE SELECTION (root/index)

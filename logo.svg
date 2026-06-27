@@ -1,14 +1,6 @@
-<div class="logo">
-    <svg width="48" height="48" viewBox="0 0 48 48">
-        <path d="M 30 6
-                 C 12 6, 12 30, 30 30
-                 L 26 26
-                 M 30 30 L 34 26"
-              stroke="#cc0000"
-              stroke-width="4"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"/>
-    </svg>
-    <span class="logo-text">SUD</span>
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60">
+  <rect width="180" height="60" fill="black"/>
+  <text x="20" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="white">SUD</text>
+  <path d="M 65 42 C 55 50, 45 50, 35 42" stroke="#cc0000" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 35 42 L 38 46 L 30 46 Z" fill="#cc0000"/>
+</svg>

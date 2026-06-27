@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60">
-  <rect width="180" height="60" fill="black"/>
-  <text x="20" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="white">SUD</text>
-  <path d="M 65 42 C 55 50, 45 50, 35 42" stroke="#cc0000" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 35 42 L 38 46 L 30 46 Z" fill="#cc0000"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60">
+  <!-- Hintergrund transparent -->
+  <text x="20" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">SUD</text>
+  <!-- Roter Pfeil: beginnt unter dem S, zieht unter U -->
+  <path d="M 38 42 C 60 46, 90 46, 110 42" stroke="#cc0000" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 110 42 L 106 46 L 114 46 Z" fill="#cc0000"/>
 </svg>

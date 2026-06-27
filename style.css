@@ -50,6 +50,10 @@ main {
     padding: 20px;
     font-size: 17px;
     line-height: 1.6;
+
+    /* >>> GLOBAL FIX: Inhalte zentrieren und Abstand schaffen <<< */
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 
@@ -87,6 +91,8 @@ main {
     background-color: #cc0000;
     border-color: #cc0000;
 }
+
+
 /* ============================
    FOOTER (root)
    ============================ */

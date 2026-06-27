@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* --- Modernisierung: Zusätzliche, isolierte Styles --- */
+        /* --- Root-spezifische Veredelung --- */
 
         .section {
             margin-top: 60px;
@@ -17,25 +17,50 @@
         .download-btn {
             display: inline-block;
             padding: 12px 22px;
-            margin: 10px 0;
-            background-color: #2b2b2b;
+            margin: 12px 0;
+            background-color: #111;
             color: #fff;
             text-decoration: none;
             border-radius: 6px;
             font-size: 16px;
-            transition: background-color 0.2s ease;
+            border: 1px solid #333;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
         }
 
         .download-btn:hover {
-            background-color: #444;
+            background-color: #cc0000;
+            border-color: #cc0000;
         }
 
         .divider {
-            width: 80%;
+            width: 70%;
             height: 1px;
-            background-color: #ccc;
-            margin: 40px auto;
-            opacity: 0.4;
+            background-color: #333;
+            margin: 50px auto;
+            opacity: 0.5;
+        }
+
+        .root-title {
+            font-size: 32px;
+            letter-spacing: 0.6px;
+            margin-bottom: 25px;
+            opacity: 0.95;
+        }
+
+        .root-sub {
+            opacity: 0.85;
+            max-width: 620px;
+            margin: 0 auto 40px auto;
+            line-height: 1.6;
+        }
+
+        .osf-link {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .osf-link:hover {
+            opacity: 1.0;
         }
     </style>
 </head>
@@ -49,9 +74,9 @@
 
 <main class="lang-select">
 
-    <h1>Self‑Undermining Dynamics</h1>
+    <h1 class="root-title">Self‑Undermining Dynamics</h1>
 
-    <p style="opacity:0.85; max-width:600px; margin:0 auto 40px auto;">
+    <p class="root-sub">
         A structural model of self‑undermining dynamics in open political systems.
     </p>
 
@@ -61,7 +86,7 @@
     </div>
 
     <div class="section">
-        <a href="https://osf.io/65n8p" target="_blank">
+        <a class="osf-link" href="https://osf.io/65n8p" target="_blank">
             OSF Project: https://osf.io/65n8p
         </a>
     </div>

@@ -37,11 +37,11 @@ a:hover {
     margin-bottom: 12px;
 }
 
-/* Root-Logo – doppelt so groß + weniger Abstand */
+/* Root-Logo – doppelt so groß + minimaler Abstand */
 .root-logo {
     width: 960px;
     max-width: 95%;
-    margin-bottom: 0px;   /* vorher 10px → jetzt direkt über den Sprachlinks */
+    margin-bottom: -10px;   /* aktiv nach oben gezogen */
 }
 
 
@@ -183,8 +183,8 @@ main th {
 
 .root-header {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;   /* leicht kompakter */
+    margin-top: 10px;     /* kompakter */
+    margin-bottom: 0px;
 }
 
 .root-title {
@@ -272,7 +272,7 @@ main th {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 10px;     /* vorher 20px → jetzt näher am Logo */
+    margin-top: -20px;     /* aktiv nach oben gezogen */
     margin-bottom: 20px;
 }
 

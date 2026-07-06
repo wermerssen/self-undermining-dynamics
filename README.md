@@ -11,4 +11,4 @@ The project provides a conceptual and structural framework for analyzing open po
 - long-term systemic evolution  
 
 The website is fully bilingual (English / German) and structured into two parallel sections:
-
+     

@@ -37,11 +37,11 @@ a:hover {
     margin-bottom: 12px;
 }
 
-/* Root-Logo – kompakter, weniger Leerraum */
+/* Root-Logo – jetzt doppelt so groß */
 .root-logo {
-    width: 480px;          /* vorher 600px → kompakter */
-    max-width: 90%;
-    margin-bottom: 10px;   /* vorher 25px → deutlich weniger Abstand */
+    width: 960px;       /* vorher 480px → jetzt doppelt */
+    max-width: 95%;     /* leicht erhöht für bessere Darstellung */
+    margin-bottom: 10px;
 }
 
 
@@ -183,14 +183,14 @@ main th {
 
 .root-header {
     text-align: center;
-    margin-top: 20px;      /* vorher 40px → kompakter */
-    margin-bottom: 20px;   /* vorher 40px → kompakter */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .root-title {
     font-size: 34px;
     letter-spacing: 0.7px;
-    margin-bottom: 12px;   /* vorher 18px → kompakter */
+    margin-bottom: 12px;
     opacity: 0.96;
     border-bottom: 1px solid #333;
     padding-bottom: 8px;
@@ -199,7 +199,7 @@ main th {
 .root-sub {
     opacity: 0.85;
     max-width: 650px;
-    margin: 0 auto 30px auto; /* vorher 45px → kompakter */
+    margin: 0 auto 30px auto;
     line-height: 1.65;
     font-size: 18px;
 }
@@ -207,12 +207,12 @@ main th {
 .root-wrapper {
     max-width: 900px;
     margin: 0 auto;
-    padding: 30px 20px;    /* vorher 40px → kompakter */
+    padding: 30px 20px;
     text-align: center;
 }
 
 .section {
-    margin-top: 50px;      /* vorher 60px → kompakter */
+    margin-top: 50px;
     opacity: 0.9;
 }
 
@@ -226,11 +226,15 @@ main th {
     opacity: 1.0;
 }
 
+.osf-tight {
+    margin-top: 12px;   /* kompakter Abstand zwischen OSF und DOI */
+}
+
 .divider {
     width: 70%;
     height: 1px;
     background-color: #444;
-    margin: 50px auto;     /* vorher 60px → kompakter */
+    margin: 50px auto;
     opacity: 0.5;
 }
 
@@ -267,7 +271,7 @@ main th {
 .lang-buttons {
     display: flex;
     justify-content: center;
-    gap: 50px;        /* vorher kein gap → jetzt perfekter Abstand */
+    gap: 50px;
     margin: 20px 0;
 }
 
@@ -286,7 +290,7 @@ main th {
    ============================ */
 
 .footer {
-    margin-top: 60px;      /* vorher 80px → kompakter */
+    margin-top: 60px;
     padding: 20px;
     text-align: center;
 }

@@ -37,11 +37,11 @@ a:hover {
     margin-bottom: 12px;
 }
 
-/* Root-Logo – jetzt doppelt so groß */
+/* Root-Logo – doppelt so groß + weniger Abstand */
 .root-logo {
-    width: 960px;       /* vorher 480px → jetzt doppelt */
-    max-width: 95%;     /* leicht erhöht für bessere Darstellung */
-    margin-bottom: 10px;
+    width: 960px;
+    max-width: 95%;
+    margin-bottom: 0px;   /* vorher 10px → jetzt direkt über den Sprachlinks */
 }
 
 
@@ -184,7 +184,7 @@ main th {
 .root-header {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;   /* leicht kompakter */
 }
 
 .root-title {
@@ -227,7 +227,7 @@ main th {
 }
 
 .osf-tight {
-    margin-top: 12px;   /* kompakter Abstand zwischen OSF und DOI */
+    margin-top: 12px;
 }
 
 .divider {
@@ -272,7 +272,8 @@ main th {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin: 20px 0;
+    margin-top: 10px;     /* vorher 20px → jetzt näher am Logo */
+    margin-bottom: 20px;
 }
 
 .lang-btn {
